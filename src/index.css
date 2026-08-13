@@ -1,0 +1,60 @@
+/* ================================
+   GLOBAL RESET
+================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fb;
+}
+
+/* Remove default button appearance problems */
+
+button {
+  font-family: inherit;
+}
+
+/* Images */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+/* Form elements */
+
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+/* Remove default focus outline only where our CSS
+   already provides a visible focus style */
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #38bdf8;
+  outline-offset: 2px;
+}
