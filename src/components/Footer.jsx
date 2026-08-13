@@ -6,7 +6,7 @@ function Footer() {
       </p>
 
       <p>
-        Created by <strong>Dinesh</strong> ❤️
+        Created by <strong>Dinesh JAYARAM </strong> ❤️
       </p>
     </footer>
   );
