@@ -37,7 +37,7 @@ function Navbar({
         >
           ❤️ Wishlist
           <span className="nav-count">
-            {wishlistCount}
+            ({wishlistCount})
           </span>
         </button>
 
@@ -47,7 +47,7 @@ function Navbar({
         >
           🛒 Cart
           <span className="nav-count">
-            {cartCount}
+            ({cartCount})
           </span>
         </button>
 
@@ -57,7 +57,7 @@ function Navbar({
         >
           📦 Orders
           <span className="nav-count">
-            {orderCount}
+            ({orderCount})
           </span>
         </button>
 
